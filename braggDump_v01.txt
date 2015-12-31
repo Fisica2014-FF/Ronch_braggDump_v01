@@ -1,0 +1,27 @@
+
+---- Read the text file "bragg_events.txt" ----
+
+The file contains a sequence of events, and for each event:
+- an integer identifier,
+- a number of energy measurements,
+- a list of integer numbers corresponding to the energy loss.
+
+***
+Create a function "read" taking as argument an input file stream 
+and an array of integers to fill with energies and returning the number 
+of points.
+
+***
+Create a function "dump" taking as argument the number of the event, 
+the number of points and the array of energies and printing a dump 
+on the screen.
+
+***
+Create a "main" function taking the file name from the command string, 
+opening the file and calling the read and dump functions.
+
+********* final list of functions *********
+
+main                   to do
+read                   to do
+dump                   to do
