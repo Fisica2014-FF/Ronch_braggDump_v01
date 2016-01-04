@@ -7,7 +7,6 @@
 
 #include <iostream>
 
-
 // Print a event
 void dump(unsigned int evID, unsigned int numpoints, int energies[]) {
 	using namespace std;

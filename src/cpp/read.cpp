@@ -23,4 +23,3 @@ unsigned int read(std::ifstream& ifs, int energies[]) {
 	return numpoints;
 }
 
-
