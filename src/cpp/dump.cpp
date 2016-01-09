@@ -25,7 +25,7 @@ void dump(unsigned int evID, unsigned int numpoints, int energies[]) {
 		// Anyway, since logic operators like && (=and) uses short-circuit evalutation,
 		// it's better to put them in order of probability to have different values during
 		// the cycle.
-		if (i % 12 == 0 and i != 0)   {
+		if (i % 12 == 0 and i != 0) {
 			cout << endl;
 		}
 	}

@@ -8,7 +8,6 @@
 #include <iostream>
 #include <fstream>
 
-
 #include "dbg_macro.h"
 
 // Quite bad function because it has to be called in a certain order
