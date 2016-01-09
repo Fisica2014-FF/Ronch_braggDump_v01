@@ -2,14 +2,12 @@
 // Name        : braggDump_v01
 // Author      : Francesco Forcher
 // Version     : 1.2
-// Copyright   : All rights reserved © 2015
 // Description : Read the text file "bragg_events.txt"
 //============================================================================
 
 #include <iostream>
 #include <fstream>
 
-//TODO Commentare tutto!
 
 #include "dbg_macro.h"
 
@@ -44,6 +42,7 @@ int main(int argc, char* argv[]) {
 		ifs >> evID;
 		numpoints = read(ifs, energies);
 		dump(evID, numpoints, energies);
+		cout << endl;
 	}
 
 	return 0;
